@@ -1,4 +1,4 @@
-from app.get_history import pars_history
+from get_history import pars_history
 
 base_currencies='USDT'
 storage = r'C:PATH'
