@@ -1,9 +1,8 @@
-from get_history.get_history import limit
+"""main"""
+from get_history.get_history import pars_history
 
-#base_currencies='USDT'
-#storage = r'C:PATH'
+BASE_CURRENCIES='usdt'
+STORAGE = r'C:PATH'
 
 if __name__ == "__main__":
-    limit()
-
-    
+    pars_history(BASE_CURRENCIES, STORAGE)
