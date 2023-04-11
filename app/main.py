@@ -1,5 +1,6 @@
 """main"""
-from get_history.get_history import pars_history
+from app.get_history.get_history import pars_history
+
 
 BASE_CURRENCIES='usdt'
 STORAGE = r'C:PATH'
