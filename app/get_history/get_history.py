@@ -21,5 +21,5 @@ def limit():
 
 
 if __name__ == "__main__":
-    #limit()
+    limit()
     pars_history(base_currencies,storage)
